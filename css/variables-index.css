@@ -16,9 +16,9 @@
 }
 @font-face {
     font-family: "Inter-Regular";
-    src: url(../storage/font/Inter-Regular);
+    src: url(../storage/font-index/Inter-Regular.ttf);
 }
 @font-face {
     font-family: "Inter-SemiBold";
-    src: url(../storage/font/Inter-SemiBold);
+    src: url(../storage/font-index/Inter-SemiBold.ttf);
 }
