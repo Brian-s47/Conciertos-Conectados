@@ -88,7 +88,11 @@ main{
 }
 .div__Seeker input{
     border: none; 
-    background: transparent;   
+    background: transparent;  
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .div__Seeker input::placeholder{
     font-family: "Inter-Regular";
