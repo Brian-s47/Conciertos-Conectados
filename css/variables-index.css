@@ -2,7 +2,7 @@
     --color-1:#FFFFFF;
     --color-2:#000000;
     --color-3:#EC441E;
-    --color-4:hsl(251, 33%, 30%);
+    --color-4:hsla(251, 33%, 22%, 0.300);
     --color-5:#00EDFC;
     --color-6:hsla(251, 33%, 22%, 0.500);
     --color-7:#333333;
@@ -13,6 +13,7 @@
     --color-12:#EDE9FF;
     --color-13:#FFECEC;
     --color-14:#FFF5D7;
+    --color-15: rgba(128, 128, 128, 0.050);
 }
 @font-face {
     font-family: "Inter-Regular";
