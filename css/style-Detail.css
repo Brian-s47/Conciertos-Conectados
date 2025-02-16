@@ -188,10 +188,18 @@ main{
 /*-------------------- section__VenueLocation ----------------------*/
 .section__VenueLocation{
     background: green;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 /*---------------------- div__VenueLocation ------------------------*/
 .div__VenueLocation{
-
+    background: gold;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 346px;
+    height: 108px;
 }
 .div__VenueLocation span{
     font-family: "Inter-Medium";
