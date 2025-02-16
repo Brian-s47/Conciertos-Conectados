@@ -152,13 +152,19 @@ main{
 /********************************************************************/
 /*-------------------- section__DescriptionMid ---------------------*/
 .section__DescriptionMid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: blue;
-    width: 346px;
-    height: 133px;
 }
 /*------------------------- div__descripcion -----------------------*/
 .div__descripcion{
-
+    background: gold;
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+    height: 133px;
+    gap: 8px;
 }
 .div__descripcion span{
     font-family: "Inter-Medium";
@@ -169,11 +175,14 @@ main{
     font-family: "DMSans-Regular";
     font-size: 12px;
     color: var(--color-6); 
+    line-height: 18px;
+    height: auto;
 }
 .div__descripcion a{
     font-family: "DMSans-Regular";
     font-size: 14px;
-    color: var(--color-5); 
+    color: var(--color-5);
+    text-decoration: none; 
 }
 /********************************************************************/
 /*-------------------- section__VenueLocation ----------------------*/
