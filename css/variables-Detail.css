@@ -1,7 +1,7 @@
 :root{
     --color-1:#000000;
     --color-2:#FFFFFF;
-    --color-3:hsla(251, 33%, 22%, 0.250);
+    --color-3:hsla(250, 33%, 22%, 0.050);
     --color-4:#761CBC;
     --color-5:#0092FC;
     --color-6:#706D6D;
@@ -9,21 +9,21 @@
 }
 @font-face {
     font-family: "DMSans-Medium";
-    src: url(../storage/font/DMSans-Medium);
+    src: url(../storage/font-Detail/DMSans-Medium.ttf);
 }
 @font-face {
     font-family: "DMSans-Regular";
-    src: url(../storage/font/DMSans-Regular);
+    src: url(../storage/font-Detail/DMSans-Regular.ttf);
 }
 @font-face {
     font-family: "Inter-Medium";
-    src: url(../storage/font/Inter-Medium);
+    src: url(../storage/font-Detail/Inter-Medium.ttf);
 }
 @font-face {
     font-family: "Inter-Regular";
-    src: url(../storage/font/Inter-Regular);
+    src: url(../storage/font-Detail/Inter-Regular.ttf);
 }
 @font-face {
     font-family: "Inter-SemiBold";
-    src: url(../storage/font/Inter-SemiBold);
+    src: url(../storage/font-Detail/Inter-SemiBold.ttf);
 }
