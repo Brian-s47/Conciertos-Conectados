@@ -7,8 +7,9 @@
 /********************************************************************/
 /*------------------------- Body -----------------------------------*/
 body{
+    background: var(--color-2);
     width: 390px;
-    height: 910px;
+    height: 844px;
 }
 /********************************************************************/
 /*------------------------- header ---------------------------------*/
@@ -19,16 +20,15 @@ header{
 /*--------------------------- Main ---------------------------------*/
 main{
     display: grid;
-    grid-template-rows: 386px 189px 269px 66px;
+    grid-template-rows: 386px 189px 269px;
     grid-template-areas: "section__infoSup"
     "section__DescriptionMid"
-    "section__VenueLocation"
-    "section__BuyTicket" ;
+    "section__VenueLocation";
 }
 /********************************************************************/
 /*------------------------ section__infoSup ------------------------*/
 .section__infoSup{
-    background: red;
+    /* background: red; */
 }
 #iconNext{
     display: flex;
@@ -59,7 +59,7 @@ main{
     width: 346px;
     height: 140px;
     border-radius: 14px;
-
+    box-shadow: 1px 1px 10px var(--color-3);
     position: relative;
     margin-top: 176px;
     margin-left: 22px;
@@ -75,7 +75,6 @@ main{
     margin-left: 20px;
 }
 .div__eventInfo h3{
-
     font-family: "Inter-SemiBold";
     font-size: 14px;
     color: var(--color-1); 
@@ -155,11 +154,11 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: blue;
+    /* background: blue; */
 }
 /*------------------------- div__descripcion -----------------------*/
 .div__descripcion{
-    background: gold;
+    /* background: gold; */
     display: flex;
     flex-direction: column;
     width: 346px;
@@ -187,14 +186,15 @@ main{
 /********************************************************************/
 /*-------------------- section__VenueLocation ----------------------*/
 .section__VenueLocation{
-    background: green;
+    /* background: green; */
     display: flex;
-    justify-content: center;
-    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 /*---------------------- div__VenueLocation ------------------------*/
 .div__VenueLocation{
-    background: gold;
+    /* background: gold; */
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -209,30 +209,43 @@ main{
 .div__VenueLocation img{
 
 }
-/********************************************************************/
-/*-------------------- section__BuyTicket --------------------------*/
-.section__BuyTicket{
-    background: purple;
-}
 /*------------------------ div__BuyTicket --------------------------*/
 .div__BuyTicket{
-
+    background: var(--color-2);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 390px;
+    height: 66px;
+    gap: 134px;
 }
 .div__BuyTicket a{
     font-family: "Inter-Medium";
     font-size: 14px;
     color: var(--color-2); 
-}
-/*------------------------ div__BuyTicket --------------------------*/
-.div__Startfrom{
 
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 110px;
+    height: 34px;
+}
+/*------------------------ div__Startfrom --------------------------*/
+.div__Startfrom{
 }
 .div__Startfrom span{
     font-family: "Inter-Regular";
     font-size: 10px;
     color: var(--color-1); 
 }
-.div__Startfrom p{
+.div__Startfrom h3{
     font-family: "Inter-SemiBold";
     font-size: 16px;
     color: var(--color-1); 
