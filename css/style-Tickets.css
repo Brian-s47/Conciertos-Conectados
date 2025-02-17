@@ -6,7 +6,13 @@
 }
 /********************************************************************/
 /*------------------------- Body -----------------------------------*/
-body{
+body{display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    padding-top: 35px;
+    gap: 46px;
     width: 390px;
     height: 844px;
 }
@@ -17,10 +23,24 @@ header{
 }
 /*------------------------- div__header ----------------------------*/
 .div__header{
-
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 343px;
+    height: 34px;
 }
 .div__header a{
-
+    /* background: green; */
+    background: var(--color-10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
 }
 .div__header img{
 
@@ -32,7 +52,10 @@ main{
 }
 /*------------------------ section__TicketRoulette -----------------*/
 .section__TicketRoulette{
-
+    background: red;
+    display: flex;
+    width: 343.5px;
+    height: 596px;
 }
 /*----------------------------- div__Roulettee ---------------------*/
 .div__Roulette{

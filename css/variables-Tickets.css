@@ -8,9 +8,8 @@
     --color-7:#E5D8FF;
     --color-8:#D1D0FE;
     --color-9:#E6D9FF;
-    --color-10:#FFFFFF;
-    --color-11:hsla(0, 0%, 0%, 0.200);
-    --color-12:#000000;
+    --color-10:hsla(0, 0%, 100%, 0.200);
+    --color-11-linear:#00000033;
 }
 @font-face {
     font-family: "Inter-Medium";
