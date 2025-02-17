@@ -56,20 +56,28 @@ main{
 
 }
 .div__basicInfo h3{
-
+    font-family: "Inter-SemiBold";
+    font-size: 18px;
+    color: var(--color-1);
 }
 .div__basicInfo p{
-
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-2);
 }
 /*--------------------------- div__completInfo ---------------------*/
 .div__completInfo{
 
 }
 .div__completInfo span{
-
+    font-family: "Inter-Medium";
+    font-size: 12px;
+    color: var(--color-2);
 }
 .div__completInfo h3{
-
+    font-family: "Inter-Medium";
+    font-size: 12px;
+    color: var(--color-2);
 }
 /*----------------------------- div__name-order ---------------------*/
 .div__name-order{
@@ -108,5 +116,7 @@ main{
 
 }
 .div__bar-code p{
-
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-1);
 }
