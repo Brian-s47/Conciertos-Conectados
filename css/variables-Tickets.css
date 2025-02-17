@@ -13,13 +13,13 @@
 }
 @font-face {
     font-family: "Inter-Medium";
-    src: url(../storage/font/Inter-Medium.ttf);
+    src: url(../storage/font-Tickets/);
 }
 @font-face {
     font-family: "Inter-Regular";
-    src: url(../storage/font/Inter-Regular.ttf);
+    src: url(../storage/font-Tickets/Inter-Regular.ttf);
 }
 @font-face {
     font-family: "Inter-SemiBold";
-    src: url(../storage/font/Inter-SemiBold.ttf);
+    src: url(../storage/font-Tickets/Inter-SemiBold.ttf);
 }
