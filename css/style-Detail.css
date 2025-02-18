@@ -1,5 +1,252 @@
+@import url(../css/variables-Detail.css);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+/********************************************************************/
+/*------------------------- Body -----------------------------------*/
+body{
+    background: var(--color-2);
+    width: 390px;
+    height: 844px;
+}
+/********************************************************************/
+/*------------------------- header ---------------------------------*/
+header{
+
+}
+/********************************************************************/
+/*--------------------------- Main ---------------------------------*/
+main{
+    display: grid;
+    grid-template-rows: 386px 189px 269px;
+    grid-template-areas: "section__infoSup"
+    "section__DescriptionMid"
+    "section__VenueLocation";
+}
+/********************************************************************/
+/*------------------------ section__infoSup ------------------------*/
+.section__infoSup{
+    /* background: red; */
+}
+#iconNext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 22px;
+    background: var(--color-7);
+    /* background-color: green; */
+    width: 34px;
+    height: 34px;
+    z-index: 1;
+}
+/*------------------------ div__imginfoSup -------------------------*/  
+.div__imginfoSup{
+    position: absolute;
+}
+.div__imginfoSup img{
+    z-index: -1;
+}
+/*-------------------------- div__infoSup --------------------------*/
+.div__infoSup{
+    background: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 346px;
+    height: 140px;
+    border-radius: 14px;
+    box-shadow: 1px 1px 10px var(--color-3);
+    position: relative;
+    margin-top: 176px;
+    margin-left: 22px;
+    /* z-index: 1; */
+}
+/*------------------------ div__eventInfo --------------------------*/
+.div__eventInfo{
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 18.5px;
+    margin-left: 20px;
+}
+.div__eventInfo h3{
+    font-family: "Inter-SemiBold";
+    font-size: 14px;
+    color: var(--color-1); 
+}
+.div__eventInfo a{
+    color: var(--color-4); 
+    text-decoration: none;
+}
+/*------------------------ div__location ---------------------------*/
+.div__location{
+    display: flex;
+    gap: 8px;
+}
+.div__location img{
+    
+}
+.div__location p{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-1); 
+}
+/*--------------------------- div__date ----------------------------*/
+.div__date{
+    display: flex;
+    gap: 8px;
+}
+.div__date img{
+    
+}
+.div__date p{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-1); 
+}
+/*----------------------- div__Participants -------------------------*/
+.div__Participants{
+    /* display: flex; */
+    /* align-items: center; */
+    margin-left: 20px;
+}
+/*------------------------- div__perfiles ---------------------------*/
+.div__perfiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.div__perfiles img{
+    position: absolute;
+}
+.div__perfiles img:nth-child(1){
+    left: 0;
+    top: 0;
+}
+.div__perfiles img:nth-child(2){
+    left: 14px;
+    top: 0;
+}
+.div__perfiles img:nth-child(3){
+    left: 28px;
+    top: 0;
+}
+.div__span{
+    display: flex;
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 64px;
+}
+.div__span span{
+    font-family: "Inter-Medium";
+    font-size: 12px;
+    color: var(--color-1); 
+}
+/********************************************************************/
+/*-------------------- section__DescriptionMid ---------------------*/
+.section__DescriptionMid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: blue; */
+}
+/*------------------------- div__descripcion -----------------------*/
+.div__descripcion{
+    /* background: gold; */
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+    height: 133px;
+    gap: 8px;
+}
+.div__descripcion span{
+    font-family: "Inter-Medium";
+    font-size: 14px;
+    color: var(--color-1); 
+}
+.div__descripcion p{
+    font-family: "DMSans-Regular";
+    font-size: 12px;
+    color: var(--color-6); 
+    line-height: 18px;
+    height: auto;
+}
+.div__descripcion a{
+    font-family: "DMSans-Regular";
+    font-size: 14px;
+    color: var(--color-5);
+    text-decoration: none; 
+}
+/********************************************************************/
+/*-------------------- section__VenueLocation ----------------------*/
+.section__VenueLocation{
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/*---------------------- div__VenueLocation ------------------------*/
+.div__VenueLocation{
+    /* background: gold; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 346px;
+    height: 108px;
+}
+.div__VenueLocation span{
+    font-family: "Inter-Medium";
+    font-size: 14px;
+    color: var(--color-1); 
+}
+.div__VenueLocation img{
+
+}
+/*------------------------ div__BuyTicket --------------------------*/
+.div__BuyTicket{
+    background: var(--color-2);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 390px;
+    height: 66px;
+    gap: 134px;
+}
+.div__BuyTicket a{
+    font-family: "Inter-Medium";
+    font-size: 14px;
+    color: var(--color-2); 
+
+    text-decoration: none;
+    border-radius: 36px;
+    background: var(--color-4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 110px;
+    height: 34px;
+}
+/*------------------------ div__Startfrom --------------------------*/
+.div__Startfrom{
+}
+.div__Startfrom span{
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    color: var(--color-1); 
+}
+.div__Startfrom h3{
+    font-family: "Inter-SemiBold";
+    font-size: 16px;
+    color: var(--color-1); 
 }
