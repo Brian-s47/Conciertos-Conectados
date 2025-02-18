@@ -8,7 +8,8 @@
 /*------------------------- Body -----------------------------------*/
 body{
     /* background: grey; */
-    background: linear-gradient(153deg, #91B5FD,#F0DDFF);
+    /* background: linear-gradient(153deg, #91B5FD,#F0DDFF); */
+    background: var(--background-liear);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -234,6 +235,7 @@ main{
 /*------------------------------ div__dotted-line ----------------------*/
 .div__dotted-line{
     /* background: var(--color-3); */
+    /* background: transparent; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -241,10 +243,11 @@ main{
     height: 35px;
 }
 #left{
+    /* background: #f0ddff; */
     background: transparent;
     border-radius: 0 50px 50px 0;
     /* border: 1px solid black; */
-    width: 17.5px;
+    width: 35px;
     height: 35px;
 }
 .div__dotted{
@@ -254,7 +257,7 @@ main{
     background: var(--color-3);
     width: 311px;
     height: 18px;
-    /* border-style: none none dashed none; */
+    border-style: none none dashed none;
     border-bottom: 2px dashed var(--color-4);
 }
 #inf{
@@ -263,10 +266,11 @@ main{
     height: 19px;
 }
 #right{
+    /* background: #f0ddff; */
     background: transparent;
     border-radius: 50px 0 0 50px;
     /* border: 1px solid black; */
-    width: 17.5px;
+    width: 35px;
     height: 35px;
 }
 /*------------------------------ div__bar-code ----------------------*/
@@ -277,10 +281,10 @@ main{
     justify-content: center;
     justify-items: center;
     text-align: center;
-    margin-top: 15px;
-    gap: 16px;
+    margin-top: 10px;
+    gap: 10px;
     width: 270px;
-    height: 117px;
+    height: 95px;
 }
 .div__bar-code img{
 
