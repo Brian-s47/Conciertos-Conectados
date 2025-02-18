@@ -1,5 +1,300 @@
+@import url(../css/variables-Tickets.css);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+/********************************************************************/
+/*------------------------- Body -----------------------------------*/
+body{
+    /* background: grey; */
+    /* background: linear-gradient(153deg, #91B5FD,#F0DDFF); */
+    background: var(--background-liear);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    padding-top: 35px;
+    gap: 46px;
+    width: 390px;
+    height: 844px;
+}
+/********************************************************************/
+/*------------------------- header ---------------------------------*/
+header{
+
+}
+/*------------------------- div__header ----------------------------*/
+.div__header{
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 343px;
+    height: 34px;
+}
+.div__header a{
+    /* background: green; */
+    background: var(--color-10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+}
+.div__header img{
+
+}
+/********************************************************************/
+/*--------------------------- Main ---------------------------------*/
+main{
+
+}
+/*------------------------ section__TicketRoulette -----------------*/
+.section__TicketRoulette{
+    /* background: red; */
+}
+/*----------------------------- div__Roulettee ---------------------*/
+.div__Roulette{
+    /* background: red; */
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-left: 23px;
+    padding-right: 23px;
+    width: 390px;
+    height: 610px;
+}
+/*----------------------------- div__Ticket1 -----------------------*/
+.div__Ticket1{
+    /* background: red; */
+}
+.div__imgEvent{
+    margin-top: 19px;
+}
+.div__imgEvent img{
+
+}
+/********************************************************************/
+.div__TicketSup1{
+    background: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    width: 343.5px;
+    height: 444px;
+}
+.div__Ticketdotted1{
+    /* background: transparent; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    width: 343.5px;
+    height: 35px;
+}
+.div__TicketInf1{
+    background: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    width: 343.5px;
+    height: 217px;
+}
+/*----------------------------- div__InfoEvent ---------------------*/
+.div__InfoEvent{
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    /* gap: 20px; */
+    width: 292px;
+    height: 241px;
+}
+.div__basicInfo{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px var(--color-5);
+    gap: 8px;
+    width: 292px;
+    height: 65px;
+}
+.div__imgEvent img{
+    width: 308px;
+    height: 156px;
+}
+.div__basicInfo h3{
+    font-family: "Inter-SemiBold";
+    font-size: 18px;
+    color: var(--color-1);
+}
+.div__basicInfo p{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-2);
+}
+/*--------------------------- div__completInfo ---------------------*/
+.div__completInfo{
+    /* background: violet; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+    width: 282px;
+    height: 156px;
+}
+.div__completInfo span{
+    font-family: "Inter-Medium";
+    font-size: 12px;
+    color: var(--color-2);
+}
+.div__completInfo h3{
+    font-family: "Inter-SemiBold";
+    font-size: 12px;
+    color: var(--color-1);
+}
+/*----------------------------- div__name-order ---------------------*/
+.div__name-order{
+    display: flex;
+    justify-content: left;
+    gap: 52px;
+}
+.name1{
+    gap: 4px;
+    width: 140px;
+    height: 36px;
+}
+.order1{
+    /* gap: 4px;
+    width: 140px;
+    height: 36px; */
+}
+.div__name-order span{
+
+}
+.div__name-order h3{
+
+}
+/*----------------------------- div__date-time ----------------------*/
+.div__date-time{
+    display: flex;
+    justify-content: left;
+    width: 249px;
+    gap: 79px;
+}
+.name2{
+    gap: 4px;
+    width: 113px;
+    height: 36px;
+}
+.order2{
+    /* gap: 4px;
+    width: 140px;
+    height: 36px; */
+}
+.div__date-time span{
+
+}
+.div__date-time h3{
+/*----------------------------- div__Gate-Seat ----------------------*/
+}
+.div__Gate-Seat{
+    display: flex;
+    justify-content: left;
+    width: 249px;
+    gap: 120px;
+}
+.Gate{
+    gap: 4px;
+    width: 74px;
+    height: 36px;
+}
+.Seat{
+    /* gap: 4px;
+    width: 140px;
+    height: 36px; */
+}
+.div__Gate-Seat span{
+
+}
+.div__Gate-Seat h3{
+
+}
+/*------------------------------ div__dotted-line ----------------------*/
+.div__dotted-line{
+    /* background: var(--color-3); */
+    /* background: transparent; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 343.5px;
+    height: 35px;
+}
+#left{
+    /* background: #f0ddff; */
+    background: transparent;
+    border-radius: 0 50px 50px 0;
+    /* border: 1px solid black; */
+    width: 35px;
+    height: 35px;
+}
+.div__dotted{
+    position: relative;
+}
+#sup{
+    background: var(--color-3);
+    width: 311px;
+    height: 18px;
+    border-style: none none dashed none;
+    border-bottom: 2px dashed var(--color-4);
+}
+#inf{
+    background: var(--color-3);
+    width: 311px;
+    height: 19px;
+}
+#right{
+    /* background: #f0ddff; */
+    background: transparent;
+    border-radius: 50px 0 0 50px;
+    /* border: 1px solid black; */
+    width: 35px;
+    height: 35px;
+}
+/*------------------------------ div__bar-code ----------------------*/
+.div__bar-code{
+    /* background: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 10px;
+    width: 270px;
+    height: 95px;
+}
+.div__bar-code img{
+
+}
+#dotted-line{
+    width: 343.5px;
+    height: 35px;
+}
+.div__bar-code p{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-1);
 }

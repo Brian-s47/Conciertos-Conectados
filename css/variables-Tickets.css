@@ -1,7 +1,25 @@
 :root{
-    --color-1:#fff;
+    --color-1:#000000;
+    --color-2:#5F5A5A;
+    --color-3:#FFFFFF;
+    --color-4:hsla(0, 5%, 39%, 0.500);
+    --color-5:hsla(0, 5%, 39%, 0.050);
+    --color-6:#91B5FD;
+    --color-7:#E5D8FF;
+    --color-8:#D1D0FE;
+    --color-9:#E6D9FF;
+    --color-10:hsla(0, 0%, 100%, 0.200);
+    --background-liear:linear-gradient(153deg, #91B5FD,#F0DDFF);
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Inter-Medium";
+    src: url(../storage/font-Tickets/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../storage/font-Tickets/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(../storage/font-Tickets/Inter-SemiBold.ttf);
 }
