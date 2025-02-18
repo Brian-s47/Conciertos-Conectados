@@ -1,7 +1,25 @@
 :root{
-    --color-1:#fff;
+    --color-1:#FFFFFF;
+    --color-2:#000000;
+    --color-3:#EC441E;
+    --color-4:hsla(251, 33%, 22%, 0.300);
+    --color-5:#00EDFC;
+    --color-6:hsla(251, 33%, 22%, 0.500);
+    --color-7:#333333;
+    --color-8:#22227E;
+    --color-9:#751F8B;
+    --color-10:#761CBC;
+    --color-11:#E4FFEA;
+    --color-12:#EDE9FF;
+    --color-13:#FFECEC;
+    --color-14:#FFF5D7;
+    --color-15: rgba(128, 128, 128, 0.050);
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Inter-Regular";
+    src: url(../storage/font-index/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(../storage/font-index/Inter-SemiBold.ttf);
 }

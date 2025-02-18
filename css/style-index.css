@@ -1,5 +1,390 @@
+@import url(variables-index.css);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+/********************************************************************/
+/*------------------------- Body -----------------------------------*/
+body{
+    background: var(--color-15);
+    width: 390px;
+    height: 844px;
+}
+/********************************************************************/
+/*------------------------- header ---------------------------------*/
+header{
+
+}
+/********************************************************************/
+/*--------------------------- Main ---------------------------------*/
+main{
+    /* background: red; */
+
+    display: grid;
+    grid-template-rows: 231px 219px 236px;
+    grid-template-areas: "section__menuSup"
+    "section__TrendingEvents"
+    "section__EventsNearYou";
+    margin-left: 20px;
+    margin-top: 45px;
+    gap: 40px;
+
+    width: 349px;
+    height: 766px;
+}
+/********************************************************************/
+/*------------------------ section__menuSup ------------------------*/
+.section__menuSup{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*------------------------- div__menuSup ---------------------------*/
+.div__menuSup{
+    /* background: violet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 34px;
+    width: 352px;
+}
+.div__menuSup img{
+    
+}
+/*------------------------- div__titleSup --------------------------*/
+.div__titleSup{
+    /* background: purple; */
+    height: 72px;
+}
+.div__titleSup h1{
+    
+}
+#Find{
+    font-family: "Inter-SemiBold";
+    font-size: 30px;
+    color: var(--color-2); 
+}
+#Trending{
+    font-family: "Inter-SemiBold";
+    font-size: 30px;
+    color: var(--color-10);  
+}
+/*--------------------------- div__Seeker --------------------------*/
+.div__Seeker{
+    /* background: brown; */
+    background: var(--color-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    height: 41px;
+    width: 346px;
+    border-radius: 10px;
+}
+.div__Seeker img{
+    
+}
+.div__Seeker input{
+    border: none; 
+    background: transparent;  
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.div__Seeker input::placeholder{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-2); 
+}
+.div__SeekerInput{
+    /* background: gold; */
+    display: flex;
+    gap: 12px;
+    width: 157px;
+    height: 17px;
+}
+/*--------------------------- div__filter --------------------------*/
+.div__filter{
+    /* background: orange; */
+    width: 346px;
+    height: 28px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.div__filter a{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-2);
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+.div__filter a:nth-child(1){
+    background: var(--color-12);
+}
+.div__filter a:nth-child(2){
+    background: var(--color-14);
+}
+.div__filter a:nth-child(3){
+    background: var(--color-13);
+}
+.div__filter a:nth-child(4){
+    background: var(--color-11);
+}
+
+/********************************************************************/
+/*--------------------- section__TrendingEvents --------------------*/
+.section__TrendingEvents{
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+/*---------------------- div__titleTren ----------------------------*/
+.div__titleTren{
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    height: 17px;
+    width: 348px;
+}
+.div__titleTren h3{
+    font-family: "Inter-SemiBold";
+    font-size: 12px;
+    color: var(--color-2); 
+}
+.div__titleTren a{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-7); 
+    text-decoration: none;
+}
+/*---------------------- div__eventRoulette ------------------------*/
+.div__eventRoulette{
+    /* background: violet; */
+    display: flex;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 346px;
+    /* height: 186px; */
+    gap: 32px;
+}
+/*--------------------------- div__boxEvent ------------------------*/
+.div__boxEvent{
+    /* background: purple; */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 6px;    
+
+    width: 346px;
+    height: 186px;
+}
+#Rectangle1{
+    position: absolute;
+}
+#Rectangle2{
+    position: absolute;
+}
+/*--------------------------- div__eventInfo -----------------------*/
+.div__eventInfo{
+    /* background: yellowgreen; */
+    background: var(--color-6);
+    backdrop-filter: blur(0.1px);
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 77px;
+    gap: 20px;
+    width: 332px;
+    height: 90px;
+    /* z-index: 1; */
+}
+/*------------------------- div__basicInfoEvent --------------------*/
+.div__basicInfoEvent{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    width: 184px;
+    height: 57px;
+}
+.div__basicInfoEvent h3{
+    font-family: "Inter-SemiBold";
+    font-size: 12px;
+    color: var(--color-1);    
+}
+/*------------------------- div__locationInfoEvent -----------------*/
+.div__locationInfoEvent{
+    display: flex;
+    gap: 8px;
+}
+.div__locationInfoEvent img{
+    
+}
+.div__locationInfoEvent p{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-1); 
+}
+/*------------------------- div__dateInfoEvent ---------------------*/
+.div__dateInfoEvent{
+    display: flex;
+    gap: 8px;
+}
+.div__dateInfoEvent img{
+    
+}
+.div__dateInfoEvent p{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-1); 
+}
+/*----------------------- div__priceInfoEvent ----------------------*/
+.div__priceInfoEvent{
+    /* background: violet; */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+
+    width: 102px;
+    height: 35px;
+}
+.div__priceInfoEvent span{
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    color: var(--color-1); 
+}
+.div__priceInfoEvent h3{
+    font-family: "Inter-SemiBold";
+    font-size: 16px;
+    color: var(--color-1); 
+}
+/********************************************************************/
+/*--------------------- section__EventsNearYou ---------------------*/
+.section__EventsNearYou{
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+/*------------------------- div__titleEvents -----------------------*/
+.div__titleEvents{
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    height: 17px;
+    width: 348px;
+}
+.div__titleEvents h3{
+    font-family: "Inter-SemiBold";
+    font-size: 14px;
+    color: var(--color-2); 
+}
+.div__titleEvents a{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--color-7); 
+    text-decoration: none;
+}
+/*------------------------- div__NearYouRoulette -------------------*/
+.div__NearYouRoulette{
+    /* background: green; */
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    width: 349px;
+    height: 236px;
+}
+/*-------------------------- div__boxNearYou -----------------------*/
+.div__boxNearYou{
+    /* background: violet; */
+    background: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding-top: 8px; */
+    padding: 8px;
+    border-radius: 8px;
+    gap: 9px;
+    width: 166px;
+    height: 203px;
+}
+.div__boxNearYou img{
+    
+}
+/*-------------------------- div__NearYouInfo ----------------------*/
+.div__NearYouInfo{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    width: 150px;
+    height: 48px;
+}
+.div__NearYouInfo h3{
+    font-family: "Inter-SemiBold";
+    font-size: 10px;
+    color: var(--color-2); 
+}
+/*---------------------- div__locationInfoNearYou ------------------*/
+.div__locationInfoNearYou{
+    /* background: brown; */
+    display: flex;
+    gap: 8px;
+}
+.div__locationInfoNearYou img{
+    
+}
+.div__locationInfoNearYou p{
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    color: var(--color-2); 
+}
+/*------------------------ div__dateInfoNearYou --------------------*/
+.div__dateInfoNearYou{
+    display: flex;
+    gap: 8px;
+}
+.div__dateInfoNearYou img{
+    
+}
+.div__dateInfoNearYou p{
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    color: var(--color-2); 
+}
+/*----------------------- div__priceInfoNearYou --------------------*/
+.div__priceInfoNearYou{
+    /* background: gold; */
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.div__priceInfoNearYou h3{
+    font-family: "Inter-SemiBold";
+    font-size: 12px;
+    color: var(--color-3); 
 }
