@@ -178,6 +178,9 @@ main{
     /* height: 186px; */
     gap: 32px;
 }
+.div__eventRoulette a{
+    text-decoration: none;
+}
 /*--------------------------- div__boxEvent ------------------------*/
 .div__boxEvent{
     /* background: purple; */
